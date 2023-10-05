@@ -1,0 +1,32 @@
+#root {
+  @apply max-w-screen-lg;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.heading-title {
+  @apply font-bold;
+  background: var(--bg-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-item {
+  background: var(--bg-gradient);
+  @apply absolute w-full flex flex-col gap-4 p-10 border-2 rounded-xl;
+}
+
+.btn-register-now {
+  position: absolute;
+  top: 87.8%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (width <= 712px) {
+  #root {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+}
