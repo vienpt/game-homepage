@@ -2,14 +2,14 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx,css}",
   ],
   theme: {
     extend: {
       backgroundImage: {
-        'btn-primary': "url('./src/assets/svg/btn-primary.svg')",
-        'btn-secondary': "url('./src/assets/svg/btn-secondary.svg')",
-        'btn-m-secondary': "url('./src/assets/svg/btn-m-secondary.svg'"
+        'btn-primary': "url('/svg/btn-primary.svg')",
+        'btn-secondary': "url('/svg/btn-secondary.svg')",
+        'btn-m-secondary': "url('/svg/btn-m-secondary.svg'"
       }
     },
     screens: {

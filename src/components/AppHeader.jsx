@@ -14,7 +14,7 @@ function Header() {
     <header className="relative">
       <nav className="h-16 flex justify-between justify-items-center items-center">
         <button className="block md:hidden mr-2" onClick={onShowMenu}>
-          <img src={'./src/assets/svg/menu.svg'}  alt="menu"/>
+          <img src={'/svg/menu.svg'}  alt="menu"/>
         </button>
         <a href="/" className="heading-title md:hidden">Marketplace</a>
         <NavItem className="hidden md:inline-flex gap-[37px] capitalize" />
