@@ -19,9 +19,17 @@
 
 .btn-register-now {
   position: absolute;
-  top: 87.8%;
+  top: 81.5%;
   left: 49.5%;
   transform: translate(-50%, -50%);
+}
+
+.div1 {
+  border: 1px solid black;
+  height: 120px;
+  width: 150px;
+  background: var(--bg-gradient) no-repeat;
+  background-size: contain;
 }
 
 @media only screen and (width <= 712px) {

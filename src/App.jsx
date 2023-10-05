@@ -13,7 +13,7 @@ function App() {
             alt="hero-icon"
             width="80"
             height="90"
-            className="absolute left-[-7.5%] md:left-[-6%] top-[-10px] md:top-[-6px] -translate-x-1/2 -translate-y-1/2"
+            className="absolute left-[-10%] md:left-[-6%] top-[-10px] md:top-[-6px] -translate-x-1/2 -translate-y-1/2"
           />
           <img
             src={'/svg/hero-icon-2.svg'}
@@ -25,16 +25,15 @@ function App() {
           <h1>Next Generation Get Your<br />Desired Rank Now</h1>
         </div>
         <div className="relative inline-block">
-          {/*<img*/}
-          {/*  src={'./src/assets/hero-main.png'}*/}
-          {/*  alt="hero-image"*/}
-          {/*  className="absolute -translate-x-1/2 -translate-y-1/2 top-[130px] right-[-40px] md:right-[-50px] md:top-[12.5rem] lg:right-[-60px] lg:top-[233px] h-[300px] md:h-[400px] lg:h-[500px]"*/}
-          {/*/>*/}
+          <img
+            src={'/hero-main.png'}
+            alt="hero-image"
+            className="absolute -translate-x-1/2 -translate-y-1/2 top-[103px] right-[-22px] md:right-[-50px] md:top-[15rem] lg:right-[-60px] lg:top-[233px] h-[180px] md:h-[400px] lg:h-[500px]"
+          />
           <img
             src={'/svg/hero.svg'}
             alt="hero-image"
-            width="847"
-            height="525"
+            className="w-full aspect-[4/3]"
           />
           <ButtonSecondary className="btn-register-now" text="Register Now" />
         </div>
