@@ -33,7 +33,7 @@ function App() {
           <img
             src={'/hero-main.png'}
             alt="hero-image"
-            className="hero-character"
+            className="absolute w-[32%] top-[0.5rem] right-[1.6rem] md:top-[1.2rem] md:right-[3.6rem] lg:top-[1.5rem] lg:right-[4.6rem]"
           />
           <ButtonSecondary className="btn-register-now" text="Register Now" />
         </div>

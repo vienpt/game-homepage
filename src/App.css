@@ -24,43 +24,6 @@
   transform: translate(-50%, -50%);
 }
 
-.hero-character {
-  position: absolute;
-  bottom: 100px;
-  right: 70px;
-  height: auto;
-
-  @media screen and (700px < width <= 900px) {
-    height: 420px;
-    bottom: 75px;
-    right: 55px;
-  }
-
-  @media screen and (max-width: 700px) {
-    height: 380px;
-    bottom: 75px;
-    right: 55px;
-  }
-
-  @media screen and (width <= 549px) {
-    height: 300px;
-    bottom: 58px;
-    right: 45px;
-  }
-
-  @media screen and (max-width: 425px) {
-    height: 250px;
-    bottom: 45px;
-    right: 35px;
-  }
-
-  @media screen and (width < 425px) {
-    height: 180px;
-    bottom: 35px;
-    right: 25px;
-  }
-}
-
 @media only screen and (width <= 712px) {
   #root {
     padding-right: 0.5rem;
