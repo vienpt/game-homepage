@@ -1,12 +1,12 @@
 import './App.css'
 import AppHeader from './components/AppHeader.jsx'
-import Hero from './components/Hero.jsx'
+import AppHero from './components/AppHero.jsx'
 
 function App() {
   return (
     <>
       <AppHeader />
-      <Hero />
+      <AppHero />
     </>
   )
 }

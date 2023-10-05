@@ -1,6 +1,6 @@
 import ButtonSecondary from "./ButtonSecondary.jsx";
 
-export default function Hero() {
+export default function AppHero() {
   return (
     <section id="hero" className="py-20 flex flex-col gap-10 justify-center items-center">
       <div className="relative md:max-w-4xl lg:text-6xl md:text-5xl text-xl font-bold text-center uppercase tracking-tighter">
