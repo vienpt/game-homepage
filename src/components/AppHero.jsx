@@ -2,7 +2,7 @@ import ButtonSecondary from "./ButtonSecondary.jsx";
 
 export default function AppHero() {
   return (
-    <section id="hero" className="py-20 flex flex-col gap-6 justify-center items-center">
+    <section id="hero" className="py-12 flex flex-col gap-6 justify-center items-center">
       <img
         src={'/svg/hero-bg-1.svg'}
         alt="hero-bg"
