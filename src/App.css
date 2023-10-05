@@ -14,7 +14,7 @@
 
 .nav-item {
   background: var(--bg-gradient);
-  @apply absolute w-full flex flex-col gap-4 p-10 border-2 rounded-xl;
+  @apply absolute z-50 w-full flex flex-col gap-4 p-10 border-2 rounded-xl;
 }
 
 .btn-register-now {
