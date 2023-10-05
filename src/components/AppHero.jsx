@@ -2,7 +2,7 @@ import ButtonSecondary from "./ButtonSecondary.jsx";
 
 export default function AppHero() {
   return (
-    <section id="hero" className="py-12 flex flex-col gap-6 justify-center items-center">
+    <section id="hero" className="pt-12 pb-2 flex flex-col gap-6 justify-center items-center">
       <img
         src={'/svg/hero-bg-1.svg'}
         alt="hero-bg"
@@ -45,7 +45,7 @@ export default function AppHero() {
           alt="hero-image"
           className="absolute w-[32%] top-[0.5rem] right-[1.6rem] md:top-[1.2rem] md:right-[3.6rem] lg:top-[1.5rem] lg:right-[4.6rem]"
         />
-        <ButtonSecondary className="btn-register-now" text="Register Now" />
+        <ButtonSecondary className="btn-register-now text-xs md:text-2xl md:tracking-wider" text="Register Now" />
       </div>
 
     </section>
