@@ -26,14 +26,14 @@ function App() {
         </div>
         <div className="relative inline-block">
           <img
-            src={'/hero-main.png'}
-            alt="hero-image"
-            className="absolute -translate-x-1/2 -translate-y-1/2 top-[103px] right-[-22px] md:right-[-50px] md:top-[15rem] lg:right-[-60px] lg:top-[233px] h-[180px] md:h-[400px] lg:h-[500px]"
-          />
-          <img
             src={'/svg/hero.svg'}
             alt="hero-image"
             className="w-full aspect-[4/3]"
+          />
+          <img
+            src={'/hero-main.png'}
+            alt="hero-image"
+            className="hero-character"
           />
           <ButtonSecondary className="btn-register-now" text="Register Now" />
         </div>
