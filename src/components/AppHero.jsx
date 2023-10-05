@@ -2,20 +2,20 @@ import ButtonSecondary from "./ButtonSecondary.jsx";
 
 export default function AppHero() {
   return (
-    <section id="hero" className="py-20 flex flex-col gap-10 justify-center items-center">
+    <section id="hero" className="py-20 flex flex-col gap-6 justify-center items-center">
       <img
         src={'/svg/hero-bg-1.svg'}
         alt="hero-bg"
         width="1662"
         height="88"
-        className="absolute min-w-max"
+        className="absolute"
       />
       <img
         src={'/svg/hero-bg-2.svg'}
         alt="hero-bg"
         width="1662"
         height="88"
-        className="absolute min-w-max"
+        className="absolute"
       />
       <div className="relative md:max-w-4xl lg:text-6xl md:text-5xl text-xl font-bold text-center uppercase tracking-tighter">
         <img
