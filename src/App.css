@@ -19,7 +19,7 @@
 
 .btn-register-now {
   position: absolute;
-  top: 81.5%;
+  top: 84.5%;
   left: 49.5%;
   transform: translate(-50%, -50%);
 }
@@ -38,6 +38,51 @@
   border: 2.316px solid #A1A1A1;
   background: url(https://s3-alpha-sig.figma.com/img/90c7/fd43/4121ddbb99cc05d8a017e4639b6570c9?Expires=1697414400&Signature=CV4a7u5oXwfv-BMy6WhCGk~QJrI8OW5KFDPYV7FJlRBpKvtvlAvVLVP7ySJpFO-xG45AY11wau99UOAuEveCi9fEbXOHohIoJUATxm4YuCuDalnriYmdTgM2asFpDbYYIJCDrB2PC0nuuTvmid17~s~yeAz9y107k8G6lvcS9qIQDLjn5bsxt3nk3g3APKgVVJVXdwjq3UwgAxDvoHE8VVfh2ngdME61FVguwPhFgBQAIdpPqEg7CcpOiLbEB1TA~T7QIrP-QNFXwIFqu5X9IzB7GPvT~E8alEOlLR1d89pKJFh5aldUv~idUPafDZ-HJ4nebWIXOELfVJFbhhKfDA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4), lightgray -452.886px 0px / 266.667% 127.247% no-repeat;
   backdrop-filter: blur(46.3291130065918px);
+}
+
+summary::marker {
+  content: url(/svg/summary-close.svg);
+}
+[open] summary::marker {
+  content: url(/svg/summary-open.svg);
+}
+[open] summary {
+  position: relative;
+  cursor: pointer;
+  @apply border-b-0 bg-collection-detail bg-center bg-no-repeat h-20 pt-[2rem] ps-3 md:ps-6 lg:ps-8;
+}
+summary {
+  position: relative;
+  cursor: pointer;
+  @apply md:w-[550px] mx-auto border-b border-gray-600 bg-center bg-no-repeat h-20 pt-[2rem] ps-3 md:ps-6 lg:ps-8;
+}
+/*summary {*/
+/*  position: relative;*/
+/*  cursor: pointer;*/
+/*  @apply border-b mx-auto lg:w-[535px] border-gray-600 h-20 pt-[2rem] ps-3 md:ps-28 lg:ps-16;*/
+/*}*/
+
+summary > span {
+  @apply absolute w-full top-[36%] left-[40px] md:top-[33%] md:left-[60px] lg:left-[70px] text-sm md:text-xl;
+}
+
+details > p {
+  @apply max-w-lg mx-auto py-2 px-2 md:text-xl;
+}
+
+@media only screen and (width = 1024px) {
+  [open] summary {
+    @apply border-b-0 pt-[2rem] ps-10;
+  }
+  summary {
+    @apply w-[550px] mx-auto ps-10;
+  }
+  [open] summary > span {
+    @apply left-[80px];
+  }
+  summary > span {
+    @apply left-[80px];
+  }
 }
 
 @media only screen and (width <= 712px) {

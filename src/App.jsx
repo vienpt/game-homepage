@@ -3,6 +3,7 @@ import AppHeader from './components/AppHeader.jsx'
 import AppHero from './components/AppHero.jsx'
 import AppCompany from './components/AppCompany.jsx'
 import AppStats from './components/AppStats.jsx'
+import AppCollection from './components/AppCollections.jsx'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <AppHero />
       <AppCompany />
       <AppStats />
+      <AppCollection />
     </>
   )
 }

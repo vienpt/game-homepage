@@ -9,7 +9,8 @@ export default {
       backgroundImage: {
         'btn-primary': "url('/svg/btn-primary.svg')",
         'btn-secondary': "url('/svg/btn-secondary.svg')",
-        'btn-m-secondary': "url('/svg/btn-m-secondary.svg'"
+        'col-detail': "url('/svg/collection-detail.svg')",
+        'collection-detail': "url('/svg/collection-detail.svg')",
       }
     },
     screens: {
