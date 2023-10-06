@@ -9,6 +9,7 @@ export default {
       backgroundImage: {
         'btn-primary': "url('/svg/btn-primary.svg')",
         'btn-secondary': "url('/svg/btn-secondary.svg')",
+        'btn-outline': "url('/svg/btn-outline.svg')",
         'col-detail': "url('/svg/collection-detail.svg')",
         'collection-detail': "url('/svg/collection-detail.svg')",
       }

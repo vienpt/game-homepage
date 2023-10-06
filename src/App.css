@@ -40,8 +40,8 @@
   backdrop-filter: blur(46.3291130065918px);
 }
 
-summary::marker {
-  content: url(/svg/summary-close.svg);
+details summary > * {
+  display: inline;
 }
 [open] summary::marker {
   content: url(/svg/summary-open.svg);
