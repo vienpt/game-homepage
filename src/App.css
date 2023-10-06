@@ -58,11 +58,11 @@ summary {
 }
 
 summary > span {
-  @apply absolute w-full top-[36%] left-[40px] md:top-[33%] md:left-[60px] lg:left-[70px] text-sm md:text-xl;
+  @apply absolute w-full top-[36%] left-[40px] md:top-[33%] md:left-[60px] lg:left-[70px] md:text-xl;
 }
 
 details > p {
-  @apply max-w-lg mx-auto py-2 px-2 md:text-xl;
+  @apply max-w-lg mx-auto py-2 px-2 text-sm md:text-xl;
 }
 
 @media only screen and (width = 1024px) {
@@ -77,6 +77,9 @@ details > p {
   }
   summary > span {
     @apply left-[80px];
+  }
+  .img-collection {
+    @apply !w-[58%];
   }
 }
 

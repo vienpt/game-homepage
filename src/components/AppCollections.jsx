@@ -15,7 +15,7 @@ export default function AppCollection() {
       </div>
       <div className="mx-auto max-w-7xl grid grid-rows-1 gap-10 lg:grid-cols-2 py-14">
         <figure>
-          <img className="mx-auto w-[80%] md:w-[75%] lg:w-[90%]" src={'/collection.png'} alt="collection" width="614" height="526" />
+          <img className="img-collection mx-auto w-auto md:w-[78%] lg:w-[90%]" src={'/collection.png'} alt="collection" width="614" height="526" />
         </figure>
         <article>
           <details open>
