@@ -83,6 +83,16 @@ details > p {
   }
 }
 
+li.scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+li.scroll-container img {
+  padding: 5px;
+  @apply w-[80%] md:w-[40%];
+}
+
 @media only screen and (width <= 712px) {
   #root {
     /*padding: 0 0.5rem;*/

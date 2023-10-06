@@ -21,7 +21,7 @@ export default function AppCollection() {
           <img className="img-collection mx-auto w-auto md:w-[78%] lg:w-[90%]" src={'/collection.png'} alt="collection" width="614" height="526" />
         </figure>
         <article>
-          <div>
+          <div id="collection-items">
             <details open>
               <summary className="capitalize">
                 <span>staff picks with erin this week's top picks</span>
