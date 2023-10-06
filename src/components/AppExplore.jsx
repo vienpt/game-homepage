@@ -12,7 +12,7 @@ const images = [
 export default function AppExplore() {
   return (
     <section id="explore" className="max-w-7xl mx-auto pb-20">
-      <div className="flex justify-center text-center md:text-start md:justify-start mx-auto md:px-6 relative lg:text-6xl md:text-4xl text-xl font-bold uppercase md:tracking-[-1.3px] lg:tracking-[-3.3px]">
+      <div className="flex justify-center text-center md:text-start md:justify-start mx-auto md:px-4 relative lg:text-6xl md:text-4xl text-xl font-bold uppercase md:tracking-[-1.3px] lg:tracking-[-3.3px]">
         <h1>we’re the first gaming <br /> award winners  the world</h1>
       </div>
       <div className="lg:px-6">
