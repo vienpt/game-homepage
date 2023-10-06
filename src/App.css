@@ -93,6 +93,23 @@ li.scroll-container img {
   @apply w-[80%] md:w-[40%];
 }
 
+.masonry-grid div:nth-child(2) {
+  width: 50%;
+  display: grid;
+  gap: 2rem;
+}
+.masonry-grid div:nth-child(1) {
+  width: 100%;
+  display: grid;
+  gap: 2rem;
+}
+.masonry-grid div:nth-child(2) {
+  position: absolute;
+  top: -38rem;
+  right: 18rem;
+  transform: translate(50%, 50%);
+}
+
 @media only screen and (width <= 712px) {
   #root {
     /*padding: 0 0.5rem;*/
