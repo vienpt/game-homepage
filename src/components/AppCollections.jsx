@@ -1,21 +1,14 @@
-import ButtonSecondary from "./ButtonSecondary.jsx";
 import ButtonPrimary from "./ButtonPrimary.jsx";
 import ButtonOutline from "./ButtonOutline.jsx";
+import SectionTitle from "./SectionTitle.jsx";
 
 export default function AppCollection() {
   return (
-    <section id="collection" className="py-20">
-      <div className="mx-auto max-w-6xl relative lg:text-6xl md:text-4xl text-xl font-bold text-center uppercase md:tracking-[-1.3px] lg:tracking-[-3.3px]">
-        <img
-          src={'/svg/hero-icon-2.svg'}
-          alt="hero-icon"
-          width="80"
-          height="90"
-          className="absolute md:w-auto md:h-auto w-[64px] h-[74px] top-[-5rem] left-[42%] md:left-[45%] lg:left-[47%] -translate-x-1/2 -translate-y-1/2"
-          style={{ transform: 'rotate(319deg)' }}
-        />
-        <h1>THE Most recent Patterns, Conveyed<br />Directly TO YOUR INBOX.</h1>
-      </div>
+    <section id="collection" className="pt-40 pb-28 md:pb-40">
+      <SectionTitle
+        hasImage={true}
+        text="THE Most recent Patterns, Conveyed/nDirectly TO YOUR INBOX."
+      />
       <div className="mx-auto max-w-7xl grid grid-rows-1 gap-10 lg:grid-cols-2 py-14">
         <figure>
           <img className="img-collection mx-auto w-auto md:w-[78%] lg:w-[90%]" src={'/collection.png'} alt="collection" width="614" height="526" />

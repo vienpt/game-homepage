@@ -3,13 +3,12 @@
 @tailwind utilities;
 
 html {
-
   --bg-gradient-dark: linear-gradient(90deg, #C1260F 0.34%, #EE642A 96.66%);
   --md-space: 2rem;
 }
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, 'Bebas Neue', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-size: 16px;

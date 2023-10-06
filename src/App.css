@@ -116,3 +116,9 @@ li.scroll-container img {
     margin: 0;
   }
 }
+
+@media only screen and (width <= 500px) {
+  .section-title {
+    line-height: 2rem !important;
+  }
+}

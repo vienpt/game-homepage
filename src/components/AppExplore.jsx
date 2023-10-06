@@ -1,6 +1,7 @@
 import {twMerge} from "tailwind-merge";
 import PropTypes from "prop-types";
 import ButtonPrimary from "./ButtonPrimary.jsx";
+import SectionTitle from "./SectionTitle.jsx";
 
 const images = [
   'explore-1',
@@ -12,9 +13,11 @@ const images = [
 export default function AppExplore() {
   return (
     <section id="explore" className="max-w-7xl mx-auto pb-20">
-      <div className="flex justify-center text-center md:text-start md:justify-start mx-auto md:px-4 relative lg:text-6xl md:text-4xl text-xl font-bold uppercase md:tracking-[-1.3px] lg:tracking-[-3.3px]">
-        <h1>we’re the first gaming <br /> award winners  the world</h1>
-      </div>
+      <SectionTitle
+        hasImage={false}
+        text="we’re the first gaming/naward winners  the world"
+        className="flex justify-center text-center md:text-start md:justify-start md:px-4"
+      />
       <div className="lg:px-6">
         <ExploreItem className="hidden lg:flex lg:justify-start justify-center space-x-10 pt-10" />
         <div className="lg:hidden">
@@ -59,9 +62,9 @@ function ViewMore({ className }) {
   return (
     <div className={classMerge}>
       <span className="flex flex-col">
-        <span className="text-sm md:text-normal">We’ve have many more than</span>
+        <span className="text-sm md:text-lg">We’ve have many more than</span>
         <span className="text-4xl md:text-6xl font-bold">100+</span>
-        <span className="text-sm md:text-normal">Gaming <span className="heading-title">Collections</span></span>
+        <span className="text-sm md:text-lg">Gaming <span className="heading-title">Collections</span></span>
       </span>
       <span className="ml-auto">
         <ButtonPrimary text="View More"></ButtonPrimary>

@@ -1,4 +1,5 @@
 import ButtonSecondary from "./ButtonSecondary.jsx";
+import SectionTitle from "./SectionTitle.jsx";
 
 export default function AppHero() {
   return (
@@ -17,7 +18,10 @@ export default function AppHero() {
         height="88"
         className="absolute"
       />
-      <div className="relative md:max-w-4xl lg:text-6xl md:text-5xl text-xl font-bold text-center uppercase tracking-tighter">
+      <SectionTitle
+        hasImage={false}
+        text="Next Generation Get Your/nDesired Rank Now"
+      >
         <img
           src={'/svg/hero-icon-1.svg'}
           alt="hero-icon"
@@ -32,8 +36,7 @@ export default function AppHero() {
           height="90"
           className="absolute md:w-auto md:h-auto w-[64px] h-[74px] right-[-80px] bottom-[-100px] -translate-x-1/2 -translate-y-1/2"
         />
-        <h1>Next Generation Get Your<br />Desired Rank Now</h1>
-      </div>
+      </SectionTitle>
       <div className="relative inline-block">
         <img
           src={'/svg/hero.svg'}
