@@ -49,18 +49,13 @@ summary::marker {
 [open] summary {
   position: relative;
   cursor: pointer;
-  @apply border-b-0 bg-collection-detail bg-center bg-no-repeat h-20 pt-[2rem] ps-3 md:ps-6 lg:ps-8;
+  @apply whitespace-pre-wrap border-b-0 bg-collection-detail bg-center bg-no-repeat h-20 pt-[2rem] ps-3 md:ps-6 lg:ps-8;
 }
 summary {
   position: relative;
   cursor: pointer;
   @apply md:w-[550px] mx-auto border-b border-gray-600 bg-center bg-no-repeat h-20 pt-[2rem] ps-3 md:ps-6 lg:ps-8;
 }
-/*summary {*/
-/*  position: relative;*/
-/*  cursor: pointer;*/
-/*  @apply border-b mx-auto lg:w-[535px] border-gray-600 h-20 pt-[2rem] ps-3 md:ps-28 lg:ps-16;*/
-/*}*/
 
 summary > span {
   @apply absolute w-full top-[36%] left-[40px] md:top-[33%] md:left-[60px] lg:left-[70px] text-sm md:text-xl;
@@ -87,7 +82,7 @@ details > p {
 
 @media only screen and (width <= 712px) {
   #root {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    /*padding: 0 0.5rem;*/
+    margin: 0;
   }
 }

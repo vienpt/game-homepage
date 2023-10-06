@@ -17,7 +17,7 @@ export default function AppHero() {
         height="88"
         className="absolute"
       />
-      <div className="relative md:max-w-4xl lg:text-6xl md:text-5xl text-2xl font-bold text-center uppercase tracking-tighter">
+      <div className="relative md:max-w-4xl lg:text-6xl md:text-5xl text-xl font-bold text-center uppercase tracking-tighter">
         <img
           src={'/svg/hero-icon-1.svg'}
           alt="hero-icon"
