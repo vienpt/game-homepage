@@ -11,12 +11,12 @@ function Header() {
   }
 
   return (
-    <header className="relative">
-      <nav className="h-16 flex justify-between justify-items-center items-center">
+    <header className="md:relative md:bg-transparent md:from-transparent md:to-transparent md:py-4 sticky top-0 z-50 bg-gradient-to-r from-w-red to-w-orange pb-[1px]">
+      <nav className="h-12 md:h-16 px-[0.5rem] md:px-[1rem] flex justify-between justify-items-center items-center bg-gray-950">
         <button className="block md:hidden mr-2" onClick={onShowMenu}>
-          <img src={'/svg/menu.svg'}  alt="menu"/>
+          <img className="h-9" src={'/svg/menu.svg'}  alt="menu"/>
         </button>
-        <a href="/" className="heading-title md:hidden">Marketplace</a>
+        <a href="/" className="text-xl heading-title md:hidden">Marketplace</a>
         <NavItem className="hidden md:inline-flex gap-[37px] capitalize" />
         <ButtonPrimary text="Register" className="ml-auto" />
       </nav>

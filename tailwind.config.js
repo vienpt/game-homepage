@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        'w-red': 'var(--red)',
+        'w-orange': 'var(--orange)',
+      },
       backgroundImage: {
         'btn-primary': "url('/svg/btn-primary.svg')",
         'btn-secondary': "url('/svg/btn-secondary.svg')",
