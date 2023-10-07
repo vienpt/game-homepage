@@ -6,11 +6,12 @@ html {
   --bg-gradient-dark: linear-gradient(90deg, #C1260F 0.34%, #EE642A 96.66%);
   --red-dark: #C1260F;
   --orange-dark: #EE642A;
+  --border-dark: #1E293B;
   --md-space: 2rem;
 }
 
 :root {
-  font-family: Inter, 'Bebas Neue', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, 'Bebas Neue', 'Nunito', 'Poppins', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-size: 16px;
@@ -29,6 +30,7 @@ html {
   --gap: var(--md-space);
   --red: var(--red-dark);
   --orange: var(--orange-dark);
+  --bg-border: var(--border-dark);
 }
 
 @media (prefers-color-scheme: light) {

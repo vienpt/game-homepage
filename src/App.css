@@ -72,24 +72,6 @@ details > p {
   @apply max-w-lg mx-auto py-2 px-2 text-sm md:text-xl;
 }
 
-@media only screen and (width = 1024px) {
-  [open] summary {
-    @apply border-b-0 pt-[2rem] ps-10;
-  }
-  summary {
-    @apply w-[550px] mx-auto ps-10;
-  }
-  [open] summary > span {
-    @apply left-[80px];
-  }
-  summary > span {
-    @apply left-[80px];
-  }
-  .img-collection {
-    @apply !w-[58%];
-  }
-}
-
 li.scroll-container {
   overflow: auto;
   white-space: nowrap;
@@ -116,6 +98,30 @@ li.scroll-container img {
   right: 18rem;
   transform: translate(50%, 50%);
 }
+
+@media only screen and (width = 1024px) {
+  [open] summary {
+    @apply border-b-0 pt-[2rem] ps-10;
+  }
+  summary {
+    @apply w-[550px] mx-auto ps-10;
+  }
+  [open] summary > span {
+    @apply left-[80px];
+  }
+  summary > span {
+    @apply left-[80px];
+  }
+
+  .img-collection {
+    @apply !w-[58%];
+  }
+
+  .img-quote {
+    @apply !top-[-4.9rem] !-mr-[4rem];
+  }
+}
+
 
 @media only screen and (width <= 712px) {
   #root {

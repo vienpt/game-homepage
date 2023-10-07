@@ -9,6 +9,7 @@ export default {
       colors: {
         'w-red': 'var(--red)',
         'w-orange': 'var(--orange)',
+        'w-border': 'var(--bg-border)',
       },
       backgroundImage: {
         'btn-primary': "url('/svg/btn-primary.svg')",
@@ -16,6 +17,7 @@ export default {
         'btn-outline': "url('/svg/btn-outline.svg')",
         'col-detail': "url('/svg/collection-detail.svg')",
         'collection-detail': "url('/svg/collection-detail.svg')",
+        'community': "url(/community.png)",
       }
     },
     screens: {

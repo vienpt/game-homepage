@@ -12,7 +12,7 @@ function Header() {
 
   return (
     <header className="md:relative md:bg-transparent md:from-transparent md:to-transparent md:py-4 sticky top-0 z-50 bg-gradient-to-r from-w-red to-w-orange pb-[1px]">
-      <nav className="h-12 md:h-16 px-[0.5rem] md:px-[1rem] flex justify-between justify-items-center items-center bg-gray-950">
+      <nav className="h-12 md:h-16 px-[0.5rem] md:px-[1rem] flex justify-between justify-items-center items-center bg-gray-950 md:bg-transparent">
         <button className="block md:hidden mr-2" onClick={onShowMenu}>
           <img className="h-9" src={'/svg/menu.svg'}  alt="menu"/>
         </button>
@@ -29,7 +29,7 @@ function Header() {
   )
 }
 
-function NavItem({ className }) {
+export function NavItem({ className }) {
   const classMerge = twMerge(className)
   return (
     <>
